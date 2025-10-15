@@ -60,6 +60,6 @@ This blueprint can be adapted for your team and is well-suited for software requ
 - Remove temporary branches after merging.
 - For teams with simpler workflows or continuous delivery, consider alternatives like GitHub Flow.
 
-##  Reference Doc
+## Git branching model diagram
 [View](https://github.com/kishore-rajkumar/git-branching-flow/blob/main/Git-branching-model.pdf)
 
