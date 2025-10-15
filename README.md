@@ -1,5 +1,7 @@
 #  Git branching model blueprint
 
+This blueprint can be adapted for your team and is well-suited for software requiring multiple version support, hotfixes, and managed releases.
+
 ## Core branches (permanent):
 
 - **master:** Always reflects a production-ready state. All commits here are stable releases.
@@ -52,7 +54,7 @@
     git branch -d hotfix-1.2.1
     ```
 ## Best practices reference:
-- Always use --no-ff for merges to preserve feature branch history.
+- Always use **--no-ff** for merges to preserve feature branch history.
 - Strictly keep new features in feature branches, and never in release/hotfix branches.
 - Tag every release on master.
 - Remove temporary branches after merging.
@@ -60,5 +62,4 @@
 
 ##  Reference Doc
 
----
-_This blueprint can be adapted for your team and is well-suited for software requiring multiple version support, hotfixes, and managed releases._
+
