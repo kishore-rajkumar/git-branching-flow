@@ -61,5 +61,5 @@ This blueprint can be adapted for your team and is well-suited for software requ
 - For teams with simpler workflows or continuous delivery, consider alternatives like GitHub Flow.
 
 ##  Reference Doc
-
+[View](https://github.com/kishore-rajkumar/git-branching-flow/blob/main/Git-branching-model.pdf)
 
