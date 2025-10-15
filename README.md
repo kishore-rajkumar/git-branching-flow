@@ -4,7 +4,7 @@ This blueprint can be adapted for your team and is well-suited for software requ
 
 ## Core branches (permanent):
 
-- **master:** Always reflects a production-ready state. All commits here are stable releases.
+- **master/main:** Always reflects a production-ready state. All commits here are stable releases.
 - **develop:** Active development; latest delivered features for the next release. Nightly builds originate here.
 
 ## Supporting branches (temporary):
