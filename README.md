@@ -63,3 +63,6 @@ This blueprint can be adapted for your team and is well-suited for software requ
 ## Git branching model diagram
 [View](https://github.com/kishore-rajkumar/git-branching-flow/blob/main/Git-branching-model.pdf)
 
+## References
+- [https://nvie.com/posts/a-successful-git-branching-model](https://nvie.com/posts/a-successful-git-branching-model/)
+
