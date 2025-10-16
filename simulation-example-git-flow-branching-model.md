@@ -136,7 +136,7 @@ git checkout v1.0.1
 | main                           |  Stable production code, deployment, tagging  |  Merge releases/hotfixes, tag, deploy          |
 | develop                        |  Integration of feature branches              |  Merge shared features, prepare releases       |
 | feature-expense-logging        |  Shared collaborative feature development     |  Integration of individual dev branches        |
-| feature-expense-logging-<dev>  |  Developer-specific workspaces                |  Local commits, PRs into shared feature branch |
+| feature-expense-logging-\<dev>  |  Developer-specific workspaces                |  Local commits, PRs into shared feature branch |
 | release-1.0.0                  |  QA, bugfixes, version bump before release    |  Finalize release, tag, merge to main & develop|
 | hotfix-expense-bug             |  Urgent post-release bug fixes                |  Patch, tag, merge to main & develop           |
 
