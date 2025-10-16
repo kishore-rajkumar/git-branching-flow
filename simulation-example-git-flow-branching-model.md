@@ -32,9 +32,9 @@ git push -u origin feature-expense-logging
     git checkout -b feature-expense-logging-alice feature-expense-logging
     ```
   - Bob
-   ```
-   git checkout -b feature-expense-logging-bob feature-expense-logging
-   ```
+    ```
+    git checkout -b feature-expense-logging-bob feature-expense-logging
+    ```
 
 **4. Parallel Development and Commits**
  - Alice and Bob work on separate parts of the feature and commit their changes:
@@ -43,8 +43,9 @@ git push -u origin feature-expense-logging
      git add expense_validator.py expenses.py
      git commit -m "Add expense validation logic"
      git push -u origin feature-expense-logging-alice
-     ``` 
-  - Bob commits reporting features:
+     ```
+
+   - Bob commits reporting features:
      ```
      git add report.py expenses.py
      git commit -m "Add expense reporting functionality"
@@ -128,9 +129,17 @@ git checkout v1.0.1
 # Deploy to production environment here
 ```
 
+## Summary Table
 
+| Branch                         |  Purpose                                      |  Key Actions                                   |
+| -------------------------------|-----------------------------------------------|------------------------------------------------|
+| main                           |  Stable production code, deployment, tagging  |  Merge releases/hotfixes, tag, deploy          |
+| develop                        |  Integration of feature branches              |  Merge shared features, prepare releases       |
+| feature-expense-logging        |  Shared collaborative feature development     |  Integration of individual dev branches        |
+| feature-expense-logging-<dev>  |  Developer-specific workspaces                |  Local commits, PRs into shared feature branch |
+| release-1.0.0                  |  QA, bugfixes, version bump before release    |  Finalize release, tag, merge to main & develop|
+| hotfix-expense-bug             |  Urgent post-release bug fixes                |  Patch, tag, merge to main & develop           |
 
+## Conclusion
 
-
-
-
+This Git Flow-based guide provides a practical, scalable, and collaborative developer workflow ensuring feature isolation, orderly integration, consistent versioning through bumping, structured release processes, and rapid hotfix management. It aligns with industry best practices, simplifying professional-grade development suitable for teams of any size.
