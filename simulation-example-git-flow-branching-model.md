@@ -1,4 +1,4 @@
-# Collaborative Feature Development with Git Flow
+# Simulation - Collaborative Feature Development with Git Flow
 _Multi-Developer Branching and Release Management for Expense Tracker MVP_
 
 ## Overview
