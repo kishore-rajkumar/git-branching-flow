@@ -61,8 +61,7 @@ This blueprint can be adapted for your team and is well-suited for software requ
 - For teams with simpler workflows or continuous delivery, consider alternatives like GitHub Flow.
 
 ## Git branching model diagram
-[View](https://github.com/kishore-rajkumar/git-branching-flow/blob/main/Git-branching-model.pdf)
+<img width="782" height="677" alt="176060292898438510" src="https://github.com/user-attachments/assets/0a653511-3fce-4a32-965e-36ef2f7fdff6" />
 
 ## References
 - [https://nvie.com/posts/a-successful-git-branching-model](https://nvie.com/posts/a-successful-git-branching-model/)
-
